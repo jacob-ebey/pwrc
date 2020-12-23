@@ -4,6 +4,11 @@ import express from "express";
 
 import pwrcExpress from "@pwrc/express";
 
+let assetPrefix = typeof SUB_PATH === "undefined" ? "" : SUB_PATH;
+assetPrefix = assetPrefix.endsWith("/")
+  ? assetPrefix.slice(0, -1)
+  : assetPrefix;
+
 const app = express();
 
 app.use(
@@ -14,8 +19,8 @@ app.use(
 app.use(
   "/*",
   pwrcExpress({
-    styles: ["/static/main.css"],
-    scripts: ["/static/main.js"],
+    styles: [assetPrefix + "/static/main.css"],
+    scripts: [assetPrefix + "/static/main.js"],
   })
 );
 
