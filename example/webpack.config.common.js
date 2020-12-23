@@ -1,9 +1,14 @@
 const { ESBuildPlugin, ESBuildMinifyPlugin } = require("esbuild-loader");
 const { DefinePlugin, ProgressPlugin } = require("webpack");
 
+/** @type {import("webpack").Configuration} */
 module.exports = {
   mode: "production",
   devtool: "source-map",
+  output: {
+    filename: "[name].js",
+    chunkFilename: "[id].[contenthash].js"
+  },
   optimization: {
     minimizer: [
       new ESBuildMinifyPlugin({

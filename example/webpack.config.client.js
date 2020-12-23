@@ -24,7 +24,10 @@ module.exports = merge(common, {
     },
   },
   plugins: [
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].[contenthash].css",
+    }),
     new SizePlugin({ writeFile: false }),
     new PWRCPlugin({
       server: false,

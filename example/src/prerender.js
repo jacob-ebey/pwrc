@@ -11,11 +11,13 @@ assetPrefix = assetPrefix.endsWith("/")
   ? assetPrefix.slice(0, -1)
   : assetPrefix;
 
+const query = `?ts=${Date.now()}`;
+
 prerender({
   paths,
   outdir: path.resolve(process.cwd(), "public"),
-  styles: [assetPrefix + "/static/main.css"],
-  scripts: [assetPrefix + "/static/main.js"],
+  styles: [assetPrefix + "/static/main.css" + query],
+  scripts: [assetPrefix + "/static/main.js" + query],
 }).catch((error) => {
   console.error(error);
   process.exit(1);
