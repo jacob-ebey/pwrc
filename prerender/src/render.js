@@ -51,11 +51,12 @@ function renderPreload(preload) {
   return (
     preload
       .map((p) => {
+        let isScript = p.split("?")[0].endsWith(".js");
         let tag = `<link rel="preload" as="${
-          p.endsWith(".js") ? "script" : "style"
+          isScript ? "script" : "style"
         }" href="${p}" />`;
 
-        if (p.endsWith(".css")) {
+        if (!isScript) {
           styles += `<link rel="stylesheet" href="${p}" />`;
         }
 

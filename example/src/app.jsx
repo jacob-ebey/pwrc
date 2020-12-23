@@ -16,6 +16,7 @@ function routePath(path) {
     return path;
   }
 
+  console.log((assetPrefix.endsWith("/") ? assetPrefix.slice(0, -1) : assetPrefix) + path);
   return (
     (assetPrefix.endsWith("/") ? assetPrefix.slice(0, -1) : assetPrefix) + path
   );
