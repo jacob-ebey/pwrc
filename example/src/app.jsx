@@ -5,7 +5,10 @@ import { useLang, useTitleTemplate } from "hoofd/preact";
 
 import Shell from "./components/shell";
 
-const assetPrefix = typeof SUB_PATH === "undefined" ? false : SUB_PATH;
+let assetPrefix = typeof SUB_PATH === "undefined" ? false : SUB_PATH;
+assetPrefix = assetPrefix.endsWith("/")
+  ? assetPrefix.slice(0, -1)
+  : assetPrefix;
 
 const Home = lazy(() => import("./pages/home"), { route: true });
 const About = lazy(() => import("./pages/about"), { route: true });
@@ -16,10 +19,11 @@ function routePath(path) {
     return path;
   }
 
-  console.log((assetPrefix.endsWith("/") ? assetPrefix.slice(0, -1) : assetPrefix) + path);
-  return (
-    (assetPrefix.endsWith("/") ? assetPrefix.slice(0, -1) : assetPrefix) + path
-  );
+  if (path === "/") {
+    return assetPrefix;
+  }
+
+  return assetPrefix + path;
 }
 
 export default function App() {
