@@ -1,5 +1,5 @@
 {
-  "hash": "0ec90dbdc30bfc57ed3f",
+  "hash": "16c8a95190c5b9d9602d",
   "version": "5.11.0",
   "time": null,
   "publicPath": "/pwrc/static/",
@@ -18,7 +18,7 @@
         {
           "type": "asset",
           "name": "main.js",
-          "size": 26186,
+          "size": 26438,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -40,7 +40,7 @@
             {
               "type": "sourceMap",
               "name": "main.js.map",
-              "size": 70957,
+              "size": 71457,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -69,16 +69,18 @@
         },
         {
           "type": "asset",
-          "name": "669.js",
-          "size": 1715,
+          "name": "669.8cc3e18d24237307a34d.js",
+          "size": 1736,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
+            "immutable": true,
+            "contenthash": "8cc3e18d24237307a34d",
             "javascriptModule": false,
             "minimized": true,
             "related": {
-              "sourceMap": "669.js.map"
+              "sourceMap": "669.8cc3e18d24237307a34d.js.map"
             }
           },
           "chunkNames": [],
@@ -89,8 +91,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "669.js.map",
-              "size": 4073,
+              "name": "669.8cc3e18d24237307a34d.js.map",
+              "size": 4094,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -117,16 +119,18 @@
         },
         {
           "type": "asset",
-          "name": "635.js",
-          "size": 294,
+          "name": "635.daa16d6327896872f3c9.js",
+          "size": 315,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
+            "immutable": true,
+            "contenthash": "daa16d6327896872f3c9",
             "javascriptModule": false,
             "minimized": true,
             "related": {
-              "sourceMap": "635.js.map"
+              "sourceMap": "635.daa16d6327896872f3c9.js.map"
             }
           },
           "chunkNames": [],
@@ -137,8 +141,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "635.js.map",
-              "size": 397,
+              "name": "635.daa16d6327896872f3c9.js.map",
+              "size": 418,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -165,16 +169,18 @@
         },
         {
           "type": "asset",
-          "name": "475.js",
-          "size": 275,
+          "name": "475.771be0b17453cb478f03.js",
+          "size": 296,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
+            "immutable": true,
+            "contenthash": "771be0b17453cb478f03",
             "javascriptModule": false,
             "minimized": true,
             "related": {
-              "sourceMap": "475.js.map"
+              "sourceMap": "475.771be0b17453cb478f03.js.map"
             }
           },
           "chunkNames": [],
@@ -185,8 +191,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "475.js.map",
-              "size": 369,
+              "name": "475.771be0b17453cb478f03.js.map",
+              "size": 390,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -213,16 +219,18 @@
         },
         {
           "type": "asset",
-          "name": "732.js",
-          "size": 270,
+          "name": "732.4519b5fb7c1ba29d54de.js",
+          "size": 291,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
+            "immutable": true,
+            "contenthash": "4519b5fb7c1ba29d54de",
             "javascriptModule": false,
             "minimized": true,
             "related": {
-              "sourceMap": "732.js.map"
+              "sourceMap": "732.4519b5fb7c1ba29d54de.js.map"
             }
           },
           "chunkNames": [],
@@ -233,8 +241,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "732.js.map",
-              "size": 368,
+              "name": "732.4519b5fb7c1ba29d54de.js.map",
+              "size": 389,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -260,7 +268,7 @@
           "isOverSizeLimit": false
         }
       ],
-      "size": 28740
+      "size": 29076
     },
     {
       "type": "assets by path",
@@ -318,14 +326,16 @@
         },
         {
           "type": "asset",
-          "name": "669.css",
-          "size": 498,
+          "name": "669.5a0f7aa2d85104e014d0.css",
+          "size": 519,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
+            "immutable": true,
+            "contenthash": "5a0f7aa2d85104e014d0",
             "related": {
-              "sourceMap": "669.css.map"
+              "sourceMap": "669.5a0f7aa2d85104e014d0.css.map"
             }
           },
           "chunkNames": [],
@@ -336,8 +346,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "669.css.map",
-              "size": 819,
+              "name": "669.5a0f7aa2d85104e014d0.css.map",
+              "size": 840,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -363,7 +373,7 @@
           "isOverSizeLimit": false
         }
       ],
-      "size": 1208
+      "size": 1229
     }
   ],
   "chunks": [
@@ -372,11 +382,11 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 43171,
+      "size": 43504,
       "sizes": {
         "javascript": 33927,
         "css/mini-extract": 673,
-        "runtime": 8571
+        "runtime": 8904
       },
       "names": [
         "main"
@@ -393,7 +403,7 @@
         "main.css.map",
         "main.js.map"
       ],
-      "hash": "0b70373d6718d6334cdc",
+      "hash": "d5e3855f160f9e1f33bb",
       "childrenByOrder": {},
       "id": 179,
       "siblings": [],
@@ -547,9 +557,9 @@
             {
               "type": "module",
               "moduleType": "runtime",
-              "size": 167,
+              "size": 302,
               "sizes": {
-                "runtime": 167
+                "runtime": 302
               },
               "built": false,
               "codeGenerated": true,
@@ -581,9 +591,9 @@
             {
               "type": "module",
               "moduleType": "runtime",
-              "size": 202,
+              "size": 400,
               "sizes": {
-                "runtime": 202
+                "runtime": 400
               },
               "built": false,
               "codeGenerated": true,
@@ -783,9 +793,9 @@
               "depth": null
             }
           ],
-          "size": 8571,
+          "size": 8904,
           "sizes": {
-            "runtime": 8571
+            "runtime": 8904
           }
         },
         {
@@ -4504,10 +4514,10 @@
         "main"
       ],
       "files": [
-        "475.js"
+        "475.771be0b17453cb478f03.js"
       ],
       "auxiliaryFiles": [
-        "475.js.map"
+        "475.771be0b17453cb478f03.js.map"
       ],
       "hash": "2c0b2da8406e1e467624",
       "childrenByOrder": {},
@@ -4631,10 +4641,10 @@
         "main"
       ],
       "files": [
-        "635.js"
+        "635.daa16d6327896872f3c9.js"
       ],
       "auxiliaryFiles": [
-        "635.js.map"
+        "635.daa16d6327896872f3c9.js.map"
       ],
       "hash": "d91eeb52e9025f21331d",
       "childrenByOrder": {},
@@ -4771,12 +4781,12 @@
         "main"
       ],
       "files": [
-        "669.css",
-        "669.js"
+        "669.5a0f7aa2d85104e014d0.css",
+        "669.8cc3e18d24237307a34d.js"
       ],
       "auxiliaryFiles": [
-        "669.css.map",
-        "669.js.map"
+        "669.5a0f7aa2d85104e014d0.css.map",
+        "669.8cc3e18d24237307a34d.js.map"
       ],
       "hash": "efa5f09ec95dad0a416d",
       "childrenByOrder": {},
@@ -5384,10 +5394,10 @@
         "main"
       ],
       "files": [
-        "732.js"
+        "732.4519b5fb7c1ba29d54de.js"
       ],
       "auxiliaryFiles": [
-        "732.js.map"
+        "732.4519b5fb7c1ba29d54de.js.map"
       ],
       "hash": "e49679ea0177f4e817cf",
       "childrenByOrder": {},
@@ -5641,9 +5651,9 @@
             {
               "type": "module",
               "moduleType": "runtime",
-              "size": 167,
+              "size": 302,
               "sizes": {
-                "runtime": 167
+                "runtime": 302
               },
               "built": false,
               "codeGenerated": true,
@@ -5674,9 +5684,9 @@
             {
               "type": "module",
               "moduleType": "runtime",
-              "size": 202,
+              "size": 400,
               "sizes": {
-                "runtime": 202
+                "runtime": 400
               },
               "built": false,
               "codeGenerated": true,
@@ -5870,9 +5880,9 @@
               "depth": null
             }
           ],
-          "size": 8571,
+          "size": 8904,
           "sizes": {
-            "runtime": 8571
+            "runtime": 8904
           }
         },
         {
@@ -10414,9 +10424,9 @@
           }
         }
       ],
-      "size": 47374,
+      "size": 47707,
       "sizes": {
-        "runtime": 8571,
+        "runtime": 8904,
         "javascript": 37668,
         "css/mini-extract": 1135
       }
@@ -11286,8 +11296,8 @@
       "name": "mini-css-extract-plugin /home/runner/work/pwrc/pwrc/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/home/runner/work/pwrc/pwrc/example/src/components/button/styles.module.css",
       "hash": "9751bd04068a28e6d0a2",
       "version": "5.11.0",
-      "time": 169,
-      "builtAt": 1608711049521,
+      "time": 156,
+      "builtAt": 1608712136433,
       "publicPath": "/pwrc/static/",
       "outputPath": "/home/runner/work/pwrc/pwrc/example/public/static",
       "assetsByChunkName": {},
@@ -12200,8 +12210,8 @@
       "name": "mini-css-extract-plugin /home/runner/work/pwrc/pwrc/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/home/runner/work/pwrc/pwrc/example/src/components/shell/styles.module.css",
       "hash": "3a907ceb8d6cf220c7ad",
       "version": "5.11.0",
-      "time": 169,
-      "builtAt": 1608711049511,
+      "time": 156,
+      "builtAt": 1608712136424,
       "publicPath": "/pwrc/static/",
       "outputPath": "/home/runner/work/pwrc/pwrc/example/public/static",
       "assetsByChunkName": {},
