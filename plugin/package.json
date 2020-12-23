@@ -1,0 +1,18 @@
+{
+  "name": "@pwrc/plugin",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "rollup": "^2.35.1",
+    "rollup-plugin-filesize": "^9.1.0",
+    "tiny-glob": "^0.2.8"
+  },
+  "dependencies": {
+    "webpack-stats-plugin": "^1.0.2"
+  }
+}

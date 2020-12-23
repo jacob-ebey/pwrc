@@ -1,0 +1,21 @@
+{
+  "name": "@pwrc/express",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "peerDependencies": {
+    "express": "^4"
+  },
+  "dependencies": {
+    "@pwrc/prerender": "^1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "rollup": "^2.35.1",
+    "rollup-plugin-filesize": "^9.1.0"
+  }
+}

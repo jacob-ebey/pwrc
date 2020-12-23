@@ -1,0 +1,15 @@
+{
+  "title": "@pwrc/loader",
+  "type": "object",
+  "description": "Options for PWRC.",
+  "additionalProperties": false,
+  "properties": {
+    "sourceMap": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        }
+      ]
+    }
+  }
+}

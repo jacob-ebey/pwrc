@@ -1,0 +1,25 @@
+{
+  "name": "@pwrc/loader",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-filesize": "^9.1.0",
+    "tiny-glob": "^0.2.8",
+    "webpack": "5.11.0"
+  },
+  "dependencies": {
+    "@jacob-ebey/astring": "1.4.4",
+    "acorn": "^8.0.4",
+    "acorn-dynamic-import": "^4.0.0",
+    "acorn-walk": "^8.0.0",
+    "estraverse": "^5.2.0",
+    "source-map": "^0.7.3"
+  }
+}

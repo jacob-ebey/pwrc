@@ -1,0 +1,22 @@
+{
+  "name": "@pwrc/preact",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "browser": "dist/umd/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "preact": "^10",
+    "preact-render-to-string": "^5"
+  },
+  "devDependencies": {
+    "preact": "^10.5.7",
+    "preact-render-to-string": "^5.1.12",
+    "rollup": "^2.35.1",
+    "rollup-plugin-filesize": "^9.1.0",
+    "tiny-glob": "^0.2.8"
+  }
+}
