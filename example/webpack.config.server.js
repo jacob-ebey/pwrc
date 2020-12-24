@@ -11,9 +11,11 @@ module.exports = merge(common, {
   entry: {
     express: "./src/express.js",
     prerender: "./src/prerender.js",
+    vercel: "./src/vercel.js",
   },
   output: {
     path: path.resolve("./dist"),
+    libraryTarget: "commonjs",
   },
   performance: false,
   plugins: [

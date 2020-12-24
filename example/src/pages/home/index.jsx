@@ -1,6 +1,6 @@
 import { h, Fragment } from "preact";
 import { useState } from "preact/hooks";
-import { useTitle } from "hoofd/preact";
+import { useMeta, useTitle } from "hoofd/preact";
 
 import { lazy } from "@pwrc/preact";
 
@@ -14,6 +14,10 @@ const ClientOnlyCodeSplit = lazy(() => import("../../components/code-split"), {
 
 export default function Home() {
   useTitle("Home");
+  useMeta({
+    name: "description",
+    content: "PWRC example home page",
+  });
 
   const [count, setCount] = useState(0);
 

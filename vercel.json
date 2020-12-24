@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "/example/dist/vercel.js", "use": "@now/node" },
+    {
+      "src": "/example/public/**",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/example/dist/vercel.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/about",
+      "dest": "/example/dist/vercel.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/example/public/$1"
+    }
+  ]
+}

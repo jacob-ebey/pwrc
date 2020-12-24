@@ -1,0 +1,18 @@
+{
+  "name": "@pwrc/vercel",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "dependencies": {
+    "@pwrc/prerender": "^1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.8.5",
+    "rollup": "^2.35.1",
+    "rollup-plugin-filesize": "^9.1.0"
+  }
+}

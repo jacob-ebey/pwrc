@@ -10,19 +10,22 @@
     "loader",
     "plugin",
     "preact",
-    "prerender"
+    "prerender",
+    "vercel"
   ],
   "scripts": {
     "start:express": "yarn workspace @pwrc/example start:express",
     "start:static": "yarn workspace @pwrc/example start:static",
     "prerender": "yarn workspace @pwrc/example prerender",
-    "build": "(run-p build:express build:loader build:plugin build:preact build:prerender) && yarn build:example",
+    "build": "(run-p build:express build:loader build:plugin build:preact build:prerender build:vercel) && yarn build:example",
     "build:example": "yarn workspace @pwrc/example build",
+    "build:example:server": "yarn workspace @pwrc/example build:server",
     "build:express": "yarn workspace @pwrc/express build",
     "build:loader": "yarn workspace @pwrc/loader build",
     "build:plugin": "yarn workspace @pwrc/plugin build",
     "build:preact": "yarn workspace @pwrc/preact build",
-    "build:prerender": "yarn workspace @pwrc/prerender build"
+    "build:prerender": "yarn workspace @pwrc/prerender build",
+    "build:vercel": "yarn workspace @pwrc/vercel build"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5"

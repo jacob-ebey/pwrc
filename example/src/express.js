@@ -9,20 +9,19 @@ assetPrefix = assetPrefix.endsWith("/")
   ? assetPrefix.slice(0, -1)
   : assetPrefix;
 
-const app = express();
+const query = `?ts=${Date.now()}`;
+
+const app = express({
+  styles: [assetPrefix + "/static/main.css" + query],
+  scripts: [assetPrefix + "/static/main.js" + query],
+});
 
 app.use(
   "/static",
   express.static(path.resolve(process.cwd(), "public/static"))
 );
 
-app.use(
-  "/*",
-  pwrcExpress({
-    styles: [assetPrefix + "/static/main.css"],
-    scripts: [assetPrefix + "/static/main.js"],
-  })
-);
+app.use("/*", pwrcExpress());
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {

@@ -67,11 +67,21 @@ lazy.rewind = () => {
 
 export class ErrorBoundary extends Component {
   componentDidCatch(err) {
-    if (err && err.then) this.__d = true;
-    else if (this.props.onError) this.props.onError(err);
-    else console.error(err);
+    if (err && err.then) {
+      this.__d = true;
+    } else {
+      if (this.props.onError) {
+        this.props.onError(err);
+      }
+
+      this.setState({ hasError: true });
+    }
   }
   render() {
+    if (this.state.hasError) {
+      return null;
+    }
+
     return this.props.children;
   }
 }

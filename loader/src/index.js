@@ -70,7 +70,9 @@ function loader(source, sourceMap) {
           throw new Error("lazy must contain exactly one import expression");
         }
 
-        const preload = getPreloadChunks(stats, Array.from(imported)[0]);
+        const preload = getPreloadChunks(stats, Array.from(imported)[0]).filter(
+          (c) => !c.endsWith("main.css") && !c.endsWith("main.js")
+        );
 
         if (node.arguments.length === 1) {
           node.arguments.push({
