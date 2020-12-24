@@ -1,5 +1,5 @@
 {
-  "hash": "ed4b7325ba19b2a3bf66",
+  "hash": "6720ef849082b6736ad3",
   "version": "5.11.0",
   "time": null,
   "publicPath": "/pwrc/static/",
@@ -18,7 +18,7 @@
         {
           "type": "asset",
           "name": "main.js",
-          "size": 26454,
+          "size": 26494,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -40,7 +40,7 @@
             {
               "type": "sourceMap",
               "name": "main.js.map",
-              "size": 71563,
+              "size": 71735,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -69,18 +69,18 @@
         },
         {
           "type": "asset",
-          "name": "669.8cc3e18d24237307a34d.js",
-          "size": 1736,
+          "name": "669.67e24801981b35899ef6.js",
+          "size": 1800,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "immutable": true,
-            "contenthash": "8cc3e18d24237307a34d",
+            "contenthash": "67e24801981b35899ef6",
             "javascriptModule": false,
             "minimized": true,
             "related": {
-              "sourceMap": "669.8cc3e18d24237307a34d.js.map"
+              "sourceMap": "669.67e24801981b35899ef6.js.map"
             }
           },
           "chunkNames": [],
@@ -91,8 +91,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "669.8cc3e18d24237307a34d.js.map",
-              "size": 4094,
+              "name": "669.67e24801981b35899ef6.js.map",
+              "size": 4224,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -113,6 +113,56 @@
           ],
           "chunks": [
             669
+          ],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "732.4d84504a8796fcd3e852.js",
+          "size": 356,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "immutable": true,
+            "contenthash": "4d84504a8796fcd3e852",
+            "javascriptModule": false,
+            "minimized": true,
+            "related": {
+              "sourceMap": "732.4d84504a8796fcd3e852.js.map"
+            }
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "filteredRelated": 0,
+          "related": [
+            {
+              "type": "sourceMap",
+              "name": "732.4d84504a8796fcd3e852.js.map",
+              "size": 520,
+              "emitted": false,
+              "comparedForEmit": false,
+              "cached": true,
+              "info": {
+                "development": true
+              },
+              "chunkNames": [],
+              "chunkIdHints": [],
+              "auxiliaryChunkNames": [],
+              "auxiliaryChunkIdHints": [],
+              "related": {},
+              "chunks": [],
+              "auxiliaryChunks": [
+                732
+              ],
+              "isOverSizeLimit": false
+            }
+          ],
+          "chunks": [
+            732
           ],
           "auxiliaryChunks": [],
           "isOverSizeLimit": false
@@ -216,59 +266,9 @@
           ],
           "auxiliaryChunks": [],
           "isOverSizeLimit": false
-        },
-        {
-          "type": "asset",
-          "name": "732.4519b5fb7c1ba29d54de.js",
-          "size": 291,
-          "emitted": false,
-          "comparedForEmit": false,
-          "cached": true,
-          "info": {
-            "immutable": true,
-            "contenthash": "4519b5fb7c1ba29d54de",
-            "javascriptModule": false,
-            "minimized": true,
-            "related": {
-              "sourceMap": "732.4519b5fb7c1ba29d54de.js.map"
-            }
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [],
-          "auxiliaryChunkIdHints": [],
-          "filteredRelated": 0,
-          "related": [
-            {
-              "type": "sourceMap",
-              "name": "732.4519b5fb7c1ba29d54de.js.map",
-              "size": 389,
-              "emitted": false,
-              "comparedForEmit": false,
-              "cached": true,
-              "info": {
-                "development": true
-              },
-              "chunkNames": [],
-              "chunkIdHints": [],
-              "auxiliaryChunkNames": [],
-              "auxiliaryChunkIdHints": [],
-              "related": {},
-              "chunks": [],
-              "auxiliaryChunks": [
-                732
-              ],
-              "isOverSizeLimit": false
-            }
-          ],
-          "chunks": [
-            732
-          ],
-          "auxiliaryChunks": [],
-          "isOverSizeLimit": false
         }
       ],
-      "size": 29092
+      "size": 29261
     },
     {
       "type": "assets by path",
@@ -382,9 +382,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 43577,
+      "size": 43677,
       "sizes": {
-        "javascript": 34000,
+        "javascript": 34100,
         "css/mini-extract": 673,
         "runtime": 8904
       },
@@ -403,7 +403,7 @@
         "main.css.map",
         "main.js.map"
       ],
-      "hash": "5afe63e8471e694ebdf4",
+      "hash": "ec18840b2d9ffbf01378",
       "childrenByOrder": {},
       "id": 179,
       "siblings": [],
@@ -1029,7 +1029,7 @@
                       "active": false,
                       "explanation": "",
                       "userRequest": "hoofd/preact",
-                      "loc": "2:0-38",
+                      "loc": "2:0-47",
                       "moduleId": 732,
                       "resolvedModuleId": 732
                     },
@@ -1048,6 +1048,20 @@
                       "resolvedModuleId": 732
                     },
                     {
+                      "moduleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/about/index.jsx",
+                      "module": "./src/pages/about/index.jsx",
+                      "moduleName": "./src/pages/about/index.jsx",
+                      "resolvedModuleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/about/index.jsx",
+                      "resolvedModule": "./src/pages/about/index.jsx",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "hoofd/preact",
+                      "loc": "5:2-9",
+                      "moduleId": 732,
+                      "resolvedModuleId": 732
+                    },
+                    {
                       "moduleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/home/index.jsx|8f2cb94c1a7e6d318f5208e3bf07631a",
                       "module": "./src/pages/home/index.jsx + 2 modules",
                       "moduleName": "./src/pages/home/index.jsx + 2 modules",
@@ -1057,7 +1071,7 @@
                       "active": false,
                       "explanation": "",
                       "userRequest": "hoofd/preact",
-                      "loc": "3:0-38",
+                      "loc": "3:0-47",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -1072,6 +1086,20 @@
                       "explanation": "",
                       "userRequest": "hoofd/preact",
                       "loc": "11:2-10",
+                      "moduleId": 669,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/home/index.jsx|8f2cb94c1a7e6d318f5208e3bf07631a",
+                      "module": "./src/pages/home/index.jsx + 2 modules",
+                      "moduleName": "./src/pages/home/index.jsx + 2 modules",
+                      "resolvedModuleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/home/index.jsx",
+                      "resolvedModule": "./src/pages/home/index.jsx",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "hoofd/preact",
+                      "loc": "12:2-9",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     }
@@ -1932,7 +1960,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "5:25-26",
+                      "loc": "9:25-26",
                       "moduleId": 732,
                       "resolvedModuleId": 732
                     },
@@ -1988,7 +2016,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "14:25-26",
+                      "loc": "18:25-26",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2002,7 +2030,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "14:27-35",
+                      "loc": "18:27-35",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2016,7 +2044,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "14:59-60",
+                      "loc": "18:59-60",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2030,7 +2058,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "14:106-107",
+                      "loc": "18:106-107",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2044,7 +2072,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "14:161-162",
+                      "loc": "18:161-162",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2058,7 +2086,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "14:209-210",
+                      "loc": "18:209-210",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2072,7 +2100,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "16:27-28",
+                      "loc": "20:27-28",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2086,7 +2114,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "18:27-28",
+                      "loc": "22:27-28",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2100,7 +2128,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact",
-                      "loc": "18:63-64",
+                      "loc": "22:63-64",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -2854,7 +2882,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "preact/hooks",
-                      "loc": "12:28-36",
+                      "loc": "16:28-36",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -3435,9 +3463,9 @@
             {
               "type": "module",
               "moduleType": "javascript/auto",
-              "size": 2103,
+              "size": 2203,
               "sizes": {
-                "javascript": 2103
+                "javascript": 2203
               },
               "built": true,
               "codeGenerated": true,
@@ -3693,11 +3721,11 @@
               "optimizationBailout": [
                 "CommonJS bailout: this is used directly at 3:3-7",
                 "CommonJS bailout: exports is used directly at 2:73-80",
-                "Statement (ExpressionStatement) with side effects in source code at 1:0-62:3",
+                "Statement (ExpressionStatement) with side effects in source code at 1:0-67:3",
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 2,
-              "source": "(function(global, factory) {\n  typeof exports === \"object\" && typeof module !== \"undefined\" ? factory(exports, require(\"preact\"), require(\"preact/hooks\")) : typeof define === \"function\" && define.amd ? define([\"exports\", \"preact\", \"preact/hooks\"], factory) : (global = typeof globalThis !== \"undefined\" ? globalThis : global || self, factory(global[\"pwrc-preact\"] = {}, global.preact, global.preactHooks));\n})(this, function(exports2, preact, hooks) {\n  \"use strict\";\n  let rewindCount = 0;\n  function lazy(load, options, _) {\n    let promise, component;\n    let count = rewindCount;\n    const skipSsr = options && options.ssr === false;\n    const isRoute = options && options.route;\n    const Component = (props) => {\n      if (typeof window === \"undefined\" && skipSsr) {\n        return null;\n      }\n      if (rewindCount !== count) {\n        count = rewindCount;\n        promise = void 0;\n        component = void 0;\n      }\n      if (!promise) {\n        promise = load().then((mod) => {\n          const result = component = mod && mod.default || mod;\n          if (_) {\n            return _(result) || result;\n          }\n          return result;\n        });\n      }\n      const [, update] = hooks.useState(0);\n      const ref = hooks.useRef(promise);\n      if (!ref.current || !isRoute) {\n        ref.current = promise.then(() => update(1));\n      }\n      if (typeof component === \"undefined\")\n        throw promise;\n      return preact.h(component, props);\n    };\n    if (!isRoute) {\n      return (props) => preact.h(ErrorBoundary, {}, preact.h(Component, props));\n    }\n    return Component;\n  }\n  lazy.rewind = () => {\n    rewindCount = rewindCount + 1;\n  };\n  class ErrorBoundary extends preact.Component {\n    componentDidCatch(err) {\n      if (err && err.then)\n        this.__d = true;\n      else if (this.props.onError)\n        this.props.onError(err);\n      else\n        console.error(err);\n    }\n    render() {\n      return this.props.children;\n    }\n  }\n  exports2.ErrorBoundary = ErrorBoundary;\n  exports2.lazy = lazy;\n  Object.defineProperty(exports2, \"__esModule\", {value: true});\n});\n"
+              "source": "(function(global, factory) {\n  typeof exports === \"object\" && typeof module !== \"undefined\" ? factory(exports, require(\"preact\"), require(\"preact/hooks\")) : typeof define === \"function\" && define.amd ? define([\"exports\", \"preact\", \"preact/hooks\"], factory) : (global = typeof globalThis !== \"undefined\" ? globalThis : global || self, factory(global[\"pwrc-preact\"] = {}, global.preact, global.preactHooks));\n})(this, function(exports2, preact, hooks) {\n  \"use strict\";\n  let rewindCount = 0;\n  function lazy(load, options, _) {\n    let promise, component;\n    let count = rewindCount;\n    const skipSsr = options && options.ssr === false;\n    const isRoute = options && options.route;\n    const Component = (props) => {\n      if (typeof window === \"undefined\" && skipSsr) {\n        return null;\n      }\n      if (rewindCount !== count) {\n        count = rewindCount;\n        promise = void 0;\n        component = void 0;\n      }\n      if (!promise) {\n        promise = load().then((mod) => {\n          const result = component = mod && mod.default || mod;\n          if (_) {\n            return _(result) || result;\n          }\n          return result;\n        });\n      }\n      const [, update] = hooks.useState(0);\n      const ref = hooks.useRef(promise);\n      if (!ref.current || !isRoute) {\n        ref.current = promise.then(() => update(1));\n      }\n      if (typeof component === \"undefined\")\n        throw promise;\n      return preact.h(component, props);\n    };\n    if (!isRoute) {\n      return (props) => preact.h(ErrorBoundary, {}, preact.h(Component, props));\n    }\n    return Component;\n  }\n  lazy.rewind = () => {\n    rewindCount = rewindCount + 1;\n  };\n  class ErrorBoundary extends preact.Component {\n    componentDidCatch(err) {\n      if (err && err.then) {\n        this.__d = true;\n      } else {\n        if (this.props.onError) {\n          this.props.onError(err);\n        }\n        this.setState({hasError: true});\n      }\n    }\n    render() {\n      if (this.state.hasError) {\n        return null;\n      }\n      return this.props.children;\n    }\n  }\n  exports2.ErrorBoundary = ErrorBoundary;\n  exports2.lazy = lazy;\n  Object.defineProperty(exports2, \"__esModule\", {value: true});\n});\n"
             },
             {
               "type": "module",
@@ -4395,9 +4423,9 @@
               ]
             }
           ],
-          "size": 34000,
+          "size": 34100,
           "sizes": {
-            "javascript": 34000
+            "javascript": 34100
           }
         },
         {
@@ -4770,9 +4798,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 3650,
+      "size": 3740,
       "sizes": {
-        "javascript": 3188,
+        "javascript": 3278,
         "css/mini-extract": 462
       },
       "names": [],
@@ -4782,13 +4810,13 @@
       ],
       "files": [
         "669.5a0f7aa2d85104e014d0.css",
-        "669.8cc3e18d24237307a34d.js"
+        "669.67e24801981b35899ef6.js"
       ],
       "auxiliaryFiles": [
         "669.5a0f7aa2d85104e014d0.css.map",
-        "669.8cc3e18d24237307a34d.js.map"
+        "669.67e24801981b35899ef6.js.map"
       ],
-      "hash": "efa5f09ec95dad0a416d",
+      "hash": "5d2b1c3623eee37c12a9",
       "childrenByOrder": {},
       "id": 669,
       "siblings": [],
@@ -4953,9 +4981,9 @@
         {
           "type": "module",
           "moduleType": "javascript/esm",
-          "size": 1990,
+          "size": 2080,
           "sizes": {
-            "javascript": 1990
+            "javascript": 2080
           },
           "built": true,
           "codeGenerated": true,
@@ -5025,9 +5053,9 @@
             {
               "type": "module",
               "moduleType": "javascript/auto",
-              "size": 936,
+              "size": 1026,
               "sizes": {
-                "javascript": 936
+                "javascript": 1026
               },
               "built": true,
               "codeGenerated": false,
@@ -5073,7 +5101,7 @@
                 "Statement (VariableDeclaration) with side effects in source code at 6:0-68"
               ],
               "depth": 2,
-              "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  const [count, setCount] = useState(0);\n  const hello = \"World\";\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Hello static, \", hello), /* @__PURE__ */ h(\"p\", null, \"Count: \", count), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count + 1)\n  }, \"+\"), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
+              "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example home page\"\n  });\n  const [count, setCount] = useState(0);\n  const hello = \"World\";\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Hello static, \", hello), /* @__PURE__ */ h(\"p\", null, \"Count: \", count), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count + 1)\n  }, \"+\"), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
             },
             {
               "type": "module",
@@ -5147,7 +5175,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../components/button",
-                  "loc": "14:211-217",
+                  "loc": "18:211-217",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -5161,7 +5189,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../components/button",
-                  "loc": "16:29-35",
+                  "loc": "20:29-35",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -5384,9 +5412,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 179,
+      "size": 270,
       "sizes": {
-        "javascript": 179
+        "javascript": 270
       },
       "names": [],
       "idHints": [],
@@ -5394,12 +5422,12 @@
         "main"
       ],
       "files": [
-        "732.4519b5fb7c1ba29d54de.js"
+        "732.4d84504a8796fcd3e852.js"
       ],
       "auxiliaryFiles": [
-        "732.4519b5fb7c1ba29d54de.js.map"
+        "732.4d84504a8796fcd3e852.js.map"
       ],
-      "hash": "e49679ea0177f4e817cf",
+      "hash": "603a348ff76f2c142bd8",
       "childrenByOrder": {},
       "id": 732,
       "siblings": [],
@@ -5411,9 +5439,9 @@
         {
           "type": "module",
           "moduleType": "javascript/auto",
-          "size": 179,
+          "size": 270,
           "sizes": {
-            "javascript": 179
+            "javascript": 270
           },
           "built": true,
           "codeGenerated": true,
@@ -5492,7 +5520,7 @@
             "ModuleConcatenation bailout: Cannot concat with ../node_modules/preact/dist/preact.module.js: Module ../node_modules/preact/dist/preact.module.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) main)"
           ],
           "depth": 2,
-          "source": "import {h} from \"preact\";\nimport {useTitle} from \"hoofd/preact\";\nexport default function About() {\n  useTitle(\"About\");\n  return /* @__PURE__ */ h(\"h1\", null, \"About Page :D\");\n}\n"
+          "source": "import {h} from \"preact\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nexport default function About() {\n  useTitle(\"About\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example about page\"\n  });\n  return /* @__PURE__ */ h(\"h1\", null, \"About Page :D\");\n}\n"
         }
       ],
       "origins": [
@@ -5900,9 +5928,9 @@
                     {
                       "type": "module",
                       "moduleType": "javascript/esm",
-                      "size": 1990,
+                      "size": 2080,
                       "sizes": {
-                        "javascript": 1990
+                        "javascript": 2080
                       },
                       "built": true,
                       "codeGenerated": true,
@@ -5971,9 +5999,9 @@
                         {
                           "type": "module",
                           "moduleType": "javascript/auto",
-                          "size": 936,
+                          "size": 1026,
                           "sizes": {
-                            "javascript": 936
+                            "javascript": 1026
                           },
                           "built": true,
                           "codeGenerated": false,
@@ -6018,7 +6046,7 @@
                             "Statement (VariableDeclaration) with side effects in source code at 6:0-68"
                           ],
                           "depth": 2,
-                          "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  const [count, setCount] = useState(0);\n  const hello = \"World\";\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Hello static, \", hello), /* @__PURE__ */ h(\"p\", null, \"Count: \", count), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count + 1)\n  }, \"+\"), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
+                          "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example home page\"\n  });\n  const [count, setCount] = useState(0);\n  const hello = \"World\";\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Hello static, \", hello), /* @__PURE__ */ h(\"p\", null, \"Count: \", count), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setCount(count + 1)\n  }, \"+\"), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
                         },
                         {
                           "type": "module",
@@ -6091,7 +6119,7 @@
                               "active": true,
                               "explanation": "",
                               "userRequest": "../../components/button",
-                              "loc": "14:211-217",
+                              "loc": "18:211-217",
                               "moduleId": null,
                               "resolvedModuleId": null
                             },
@@ -6105,7 +6133,7 @@
                               "active": true,
                               "explanation": "",
                               "userRequest": "../../components/button",
-                              "loc": "16:29-35",
+                              "loc": "20:29-35",
                               "moduleId": null,
                               "resolvedModuleId": null
                             }
@@ -6220,9 +6248,9 @@
                     {
                       "type": "module",
                       "moduleType": "javascript/auto",
-                      "size": 179,
+                      "size": 270,
                       "sizes": {
-                        "javascript": 179
+                        "javascript": 270
                       },
                       "built": true,
                       "codeGenerated": true,
@@ -6300,7 +6328,7 @@
                         "ModuleConcatenation bailout: Cannot concat with ../node_modules/preact/dist/preact.module.js: Module ../node_modules/preact/dist/preact.module.js is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) main)"
                       ],
                       "depth": 2,
-                      "source": "import {h} from \"preact\";\nimport {useTitle} from \"hoofd/preact\";\nexport default function About() {\n  useTitle(\"About\");\n  return /* @__PURE__ */ h(\"h1\", null, \"About Page :D\");\n}\n"
+                      "source": "import {h} from \"preact\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nexport default function About() {\n  useTitle(\"About\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example about page\"\n  });\n  return /* @__PURE__ */ h(\"h1\", null, \"About Page :D\");\n}\n"
                     },
                     {
                       "type": "module",
@@ -6388,9 +6416,9 @@
                       "source": "import {h} from \"preact\";\nimport {useTitle} from \"hoofd/preact\";\nexport default function NotFound() {\n  useTitle(\"Not Found\");\n  return /* @__PURE__ */ h(\"h1\", null, \"404: Not Found\");\n}\n"
                     }
                   ],
-                  "size": 2356,
+                  "size": 2537,
                   "sizes": {
-                    "javascript": 2356
+                    "javascript": 2537
                   }
                 },
                 {
@@ -7170,9 +7198,9 @@
                   "source": "import {h} from \"preact\";\nexport default function CodeSplit({clientOnly}) {\n  return /* @__PURE__ */ h(\"h2\", null, \"I'm a code-split\", clientOnly ? \" client-only\" : \"\", \" component!\");\n}\n"
                 }
               ],
-              "size": 8866,
+              "size": 9047,
               "sizes": {
-                "javascript": 8866
+                "javascript": 9047
               }
             },
             {
@@ -8016,7 +8044,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "5:25-26",
+                          "loc": "9:25-26",
                           "moduleId": 732,
                           "resolvedModuleId": 732
                         },
@@ -8072,7 +8100,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "14:25-26",
+                          "loc": "18:25-26",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8086,7 +8114,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "14:27-35",
+                          "loc": "18:27-35",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8100,7 +8128,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "14:59-60",
+                          "loc": "18:59-60",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8114,7 +8142,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "14:106-107",
+                          "loc": "18:106-107",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8128,7 +8156,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "14:161-162",
+                          "loc": "18:161-162",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8142,7 +8170,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "14:209-210",
+                          "loc": "18:209-210",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8156,7 +8184,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "16:27-28",
+                          "loc": "20:27-28",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8170,7 +8198,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "18:27-28",
+                          "loc": "22:27-28",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8184,7 +8212,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact",
-                          "loc": "18:63-64",
+                          "loc": "22:63-64",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -8937,7 +8965,7 @@
                           "active": true,
                           "explanation": "",
                           "userRequest": "preact/hooks",
-                          "loc": "12:28-36",
+                          "loc": "16:28-36",
                           "moduleId": 669,
                           "resolvedModuleId": null
                         },
@@ -9518,9 +9546,9 @@
                 {
                   "type": "module",
                   "moduleType": "javascript/auto",
-                  "size": 2103,
+                  "size": 2203,
                   "sizes": {
-                    "javascript": 2103
+                    "javascript": 2203
                   },
                   "built": true,
                   "codeGenerated": true,
@@ -9775,11 +9803,11 @@
                   "optimizationBailout": [
                     "CommonJS bailout: this is used directly at 3:3-7",
                     "CommonJS bailout: exports is used directly at 2:73-80",
-                    "Statement (ExpressionStatement) with side effects in source code at 1:0-62:3",
+                    "Statement (ExpressionStatement) with side effects in source code at 1:0-67:3",
                     "ModuleConcatenation bailout: Module is not an ECMAScript module"
                   ],
                   "depth": 2,
-                  "source": "(function(global, factory) {\n  typeof exports === \"object\" && typeof module !== \"undefined\" ? factory(exports, require(\"preact\"), require(\"preact/hooks\")) : typeof define === \"function\" && define.amd ? define([\"exports\", \"preact\", \"preact/hooks\"], factory) : (global = typeof globalThis !== \"undefined\" ? globalThis : global || self, factory(global[\"pwrc-preact\"] = {}, global.preact, global.preactHooks));\n})(this, function(exports2, preact, hooks) {\n  \"use strict\";\n  let rewindCount = 0;\n  function lazy(load, options, _) {\n    let promise, component;\n    let count = rewindCount;\n    const skipSsr = options && options.ssr === false;\n    const isRoute = options && options.route;\n    const Component = (props) => {\n      if (typeof window === \"undefined\" && skipSsr) {\n        return null;\n      }\n      if (rewindCount !== count) {\n        count = rewindCount;\n        promise = void 0;\n        component = void 0;\n      }\n      if (!promise) {\n        promise = load().then((mod) => {\n          const result = component = mod && mod.default || mod;\n          if (_) {\n            return _(result) || result;\n          }\n          return result;\n        });\n      }\n      const [, update] = hooks.useState(0);\n      const ref = hooks.useRef(promise);\n      if (!ref.current || !isRoute) {\n        ref.current = promise.then(() => update(1));\n      }\n      if (typeof component === \"undefined\")\n        throw promise;\n      return preact.h(component, props);\n    };\n    if (!isRoute) {\n      return (props) => preact.h(ErrorBoundary, {}, preact.h(Component, props));\n    }\n    return Component;\n  }\n  lazy.rewind = () => {\n    rewindCount = rewindCount + 1;\n  };\n  class ErrorBoundary extends preact.Component {\n    componentDidCatch(err) {\n      if (err && err.then)\n        this.__d = true;\n      else if (this.props.onError)\n        this.props.onError(err);\n      else\n        console.error(err);\n    }\n    render() {\n      return this.props.children;\n    }\n  }\n  exports2.ErrorBoundary = ErrorBoundary;\n  exports2.lazy = lazy;\n  Object.defineProperty(exports2, \"__esModule\", {value: true});\n});\n"
+                  "source": "(function(global, factory) {\n  typeof exports === \"object\" && typeof module !== \"undefined\" ? factory(exports, require(\"preact\"), require(\"preact/hooks\")) : typeof define === \"function\" && define.amd ? define([\"exports\", \"preact\", \"preact/hooks\"], factory) : (global = typeof globalThis !== \"undefined\" ? globalThis : global || self, factory(global[\"pwrc-preact\"] = {}, global.preact, global.preactHooks));\n})(this, function(exports2, preact, hooks) {\n  \"use strict\";\n  let rewindCount = 0;\n  function lazy(load, options, _) {\n    let promise, component;\n    let count = rewindCount;\n    const skipSsr = options && options.ssr === false;\n    const isRoute = options && options.route;\n    const Component = (props) => {\n      if (typeof window === \"undefined\" && skipSsr) {\n        return null;\n      }\n      if (rewindCount !== count) {\n        count = rewindCount;\n        promise = void 0;\n        component = void 0;\n      }\n      if (!promise) {\n        promise = load().then((mod) => {\n          const result = component = mod && mod.default || mod;\n          if (_) {\n            return _(result) || result;\n          }\n          return result;\n        });\n      }\n      const [, update] = hooks.useState(0);\n      const ref = hooks.useRef(promise);\n      if (!ref.current || !isRoute) {\n        ref.current = promise.then(() => update(1));\n      }\n      if (typeof component === \"undefined\")\n        throw promise;\n      return preact.h(component, props);\n    };\n    if (!isRoute) {\n      return (props) => preact.h(ErrorBoundary, {}, preact.h(Component, props));\n    }\n    return Component;\n  }\n  lazy.rewind = () => {\n    rewindCount = rewindCount + 1;\n  };\n  class ErrorBoundary extends preact.Component {\n    componentDidCatch(err) {\n      if (err && err.then) {\n        this.__d = true;\n      } else {\n        if (this.props.onError) {\n          this.props.onError(err);\n        }\n        this.setState({hasError: true});\n      }\n    }\n    render() {\n      if (this.state.hasError) {\n        return null;\n      }\n      return this.props.children;\n    }\n  }\n  exports2.ErrorBoundary = ErrorBoundary;\n  exports2.lazy = lazy;\n  Object.defineProperty(exports2, \"__esModule\", {value: true});\n});\n"
                 },
                 {
                   "type": "module",
@@ -10003,7 +10031,7 @@
                       "active": false,
                       "explanation": "",
                       "userRequest": "hoofd/preact",
-                      "loc": "2:0-38",
+                      "loc": "2:0-47",
                       "moduleId": 732,
                       "resolvedModuleId": 732
                     },
@@ -10022,6 +10050,20 @@
                       "resolvedModuleId": 732
                     },
                     {
+                      "moduleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/about/index.jsx",
+                      "module": "./src/pages/about/index.jsx",
+                      "moduleName": "./src/pages/about/index.jsx",
+                      "resolvedModuleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/about/index.jsx",
+                      "resolvedModule": "./src/pages/about/index.jsx",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "hoofd/preact",
+                      "loc": "5:2-9",
+                      "moduleId": 732,
+                      "resolvedModuleId": 732
+                    },
+                    {
                       "moduleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/home/index.jsx|8f2cb94c1a7e6d318f5208e3bf07631a",
                       "module": "./src/pages/home/index.jsx + 2 modules",
                       "moduleName": "./src/pages/home/index.jsx + 2 modules",
@@ -10031,7 +10073,7 @@
                       "active": false,
                       "explanation": "",
                       "userRequest": "hoofd/preact",
-                      "loc": "3:0-38",
+                      "loc": "3:0-47",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     },
@@ -10046,6 +10088,20 @@
                       "explanation": "",
                       "userRequest": "hoofd/preact",
                       "loc": "11:2-10",
+                      "moduleId": 669,
+                      "resolvedModuleId": null
+                    },
+                    {
+                      "moduleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/home/index.jsx|8f2cb94c1a7e6d318f5208e3bf07631a",
+                      "module": "./src/pages/home/index.jsx + 2 modules",
+                      "moduleName": "./src/pages/home/index.jsx + 2 modules",
+                      "resolvedModuleIdentifier": "/home/runner/work/pwrc/pwrc/node_modules/esbuild-loader/dist/index.js??ruleSet[1].rules[0].use[0]!/home/runner/work/pwrc/pwrc/example/src/pages/home/index.jsx",
+                      "resolvedModule": "./src/pages/home/index.jsx",
+                      "type": "harmony import specifier",
+                      "active": true,
+                      "explanation": "",
+                      "userRequest": "hoofd/preact",
+                      "loc": "12:2-9",
                       "moduleId": 669,
                       "resolvedModuleId": null
                     }
@@ -10223,15 +10279,15 @@
                   "source": "/*!\n  Copyright (c) 2017 Jed Watson.\n  Licensed under the MIT License (MIT), see\n  http://jedwatson.github.io/classnames\n*/\n/* global define */\n\n(function () {\n\t'use strict';\n\n\tvar hasOwn = {}.hasOwnProperty;\n\n\tfunction classNames () {\n\t\tvar classes = [];\n\n\t\tfor (var i = 0; i < arguments.length; i++) {\n\t\t\tvar arg = arguments[i];\n\t\t\tif (!arg) continue;\n\n\t\t\tvar argType = typeof arg;\n\n\t\t\tif (argType === 'string' || argType === 'number') {\n\t\t\t\tclasses.push(arg);\n\t\t\t} else if (Array.isArray(arg) && arg.length) {\n\t\t\t\tvar inner = classNames.apply(null, arg);\n\t\t\t\tif (inner) {\n\t\t\t\t\tclasses.push(inner);\n\t\t\t\t}\n\t\t\t} else if (argType === 'object') {\n\t\t\t\tfor (var key in arg) {\n\t\t\t\t\tif (hasOwn.call(arg, key) && arg[key]) {\n\t\t\t\t\t\tclasses.push(key);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn classes.join(' ');\n\t}\n\n\tif (typeof module !== 'undefined' && module.exports) {\n\t\tclassNames.default = classNames;\n\t\tmodule.exports = classNames;\n\t} else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {\n\t\t// register as 'classnames', consistent with npm package name\n\t\tdefine('classnames', [], function () {\n\t\t\treturn classNames;\n\t\t});\n\t} else {\n\t\twindow.classNames = classNames;\n\t}\n}());\n"
                 }
               ],
-              "size": 28875,
+              "size": 28975,
               "sizes": {
-                "javascript": 28875
+                "javascript": 28975
               }
             }
           ],
-          "size": 37741,
+          "size": 38022,
           "sizes": {
-            "javascript": 37741
+            "javascript": 38022
           }
         },
         {
@@ -10424,10 +10480,10 @@
           }
         }
       ],
-      "size": 47780,
+      "size": 48061,
       "sizes": {
         "runtime": 8904,
-        "javascript": 37741,
+        "javascript": 38022,
         "css/mini-extract": 1135
       }
     },
@@ -10723,7 +10779,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "../../components/button",
-                      "loc": "14:211-217",
+                      "loc": "18:211-217",
                       "moduleId": null,
                       "resolvedModuleId": null
                     },
@@ -10737,7 +10793,7 @@
                       "active": true,
                       "explanation": "",
                       "userRequest": "../../components/button",
-                      "loc": "16:29-35",
+                      "loc": "20:29-35",
                       "moduleId": null,
                       "resolvedModuleId": null
                     }
@@ -11296,8 +11352,8 @@
       "name": "mini-css-extract-plugin /home/runner/work/pwrc/pwrc/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/home/runner/work/pwrc/pwrc/example/src/components/button/styles.module.css",
       "hash": "9751bd04068a28e6d0a2",
       "version": "5.11.0",
-      "time": 130,
-      "builtAt": 1608712656612,
+      "time": 131,
+      "builtAt": 1608851503406,
       "publicPath": "/pwrc/static/",
       "outputPath": "/home/runner/work/pwrc/pwrc/example/public/static",
       "assetsByChunkName": {},
@@ -12210,8 +12266,8 @@
       "name": "mini-css-extract-plugin /home/runner/work/pwrc/pwrc/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/home/runner/work/pwrc/pwrc/example/src/components/shell/styles.module.css",
       "hash": "3a907ceb8d6cf220c7ad",
       "version": "5.11.0",
-      "time": 129,
-      "builtAt": 1608712656603,
+      "time": 130,
+      "builtAt": 1608851503397,
       "publicPath": "/pwrc/static/",
       "outputPath": "/home/runner/work/pwrc/pwrc/example/public/static",
       "assetsByChunkName": {},
