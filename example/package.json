@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "cross-fetch": "^3.0.6",
     "express": "^4.17.1",
     "hoofd": "^1.0.2",
     "preact": "^10.5.7",

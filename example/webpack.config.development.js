@@ -1,5 +1,3 @@
-const PreactRefreshPlugin = require("@prefresh/webpack");
-const { HotModuleReplacementPlugin } = require("webpack");
 const { merge } = require("webpack-merge");
 
 const clientConfig = require("./webpack.config.client");
@@ -12,8 +10,6 @@ const devConfig = {
 };
 
 module.exports = [
-  merge(clientConfig, devConfig, {
-    plugins: [new PreactRefreshPlugin(), new HotModuleReplacementPlugin()],
-  }),
+  merge(clientConfig, devConfig),
   merge(serverConfig, devConfig),
 ];

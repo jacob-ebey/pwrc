@@ -6,6 +6,7 @@ import { lazy } from "@pwrc/preact";
 
 // import useStaticResult from "preact-webpack-prerender/useStaticResult";
 import Button from "../../components/button";
+import { useFetch } from "../../use-fetch";
 
 const CodeSplit = lazy(() => import("../../components/code-split"));
 const ClientOnlyCodeSplit = lazy(() => import("../../components/code-split"), {
@@ -19,25 +20,27 @@ export default function Home() {
     content: "PWRC example home page",
   });
 
-  const [count, setCount] = useState(0);
+  const [todoId, setTodoId] = useState(1);
 
-  // const { hello } = useStaticResult("home-page-test", () => {
-  //   return {
-  //     hello: "World",
-  //   };
-  // });
-
-  const hello = "World";
+  const [todo, reloadTodos] = useFetch(
+    "todos",
+    `https://jsonplaceholder.typicode.com/todos/${todoId}`
+  );
 
   return (
     <>
       <h1>Home Page :D</h1>
 
-      <p>Hello Static, {hello}</p>
-
-      <p>Count: {count}</p>
-      <Button onClick={() => setCount(count - 1)}>{"-"}</Button>
-      <Button onClick={() => setCount(count + 1)}>{"+"}</Button>
+      <p>Use Fetch Data</p>
+      <p>TODO ID: {todoId}</p>
+      <p>
+        <Button onClick={reloadTodos}>Reload</Button>
+        <Button onClick={() => setTodoId(todoId - 1)}>{"-"}</Button>
+        <Button onClick={() => setTodoId(todoId + 1)}>{"+"}</Button>
+      </p>
+      <pre>
+        <code>{JSON.stringify(todo, null, 2)}</code>
+      </pre>
 
       <CodeSplit />
       <ClientOnlyCodeSplit clientOnly={true} />

@@ -4,6 +4,8 @@ import express from "express";
 
 import pwrcExpress from "@pwrc/express";
 
+import wrap from "./wrap";
+
 let assetPrefix = typeof SUB_PATH === "undefined" ? "" : SUB_PATH;
 assetPrefix = assetPrefix.endsWith("/")
   ? assetPrefix.slice(0, -1)
@@ -20,6 +22,7 @@ app.use(
   pwrcExpress({
     styles: [assetPrefix + "/static/main.css" + query],
     scripts: [assetPrefix + "/static/main.js" + query],
+    wrap,
   })
 );
 

@@ -25,7 +25,8 @@ const hoofdStringify = (title, metas, links, ampScript) => {
       if (
         !visited.has(
           meta.charset ? meta.keyword : meta[meta.keyword] || meta.name
-        )
+        ) &&
+        meta.name !== "script"
       ) {
         visited.add(
           meta.charset ? meta.keyword : meta[meta.keyword] || meta.name
@@ -72,15 +73,28 @@ function renderPreload(preload) {
 export async function render(path, options) {
   const scripts = (options && options.scripts) || [];
   const styles = (options && options.styles) || [];
+  const wrap = (options && options.wrap) || false;
+  const userOnSuspenseResolve = (options && options.onSuspenseResolve) || false;
 
   lazy.rewind();
 
-  const vnode = h(LocationProvider.ctx.Provider, { value: { path } }, h(App));
+  let vnode = h(LocationProvider.ctx.Provider, { value: { path } }, h(App));
+
+  let wrappedHtml;
+  if (wrap) {
+    const wrapped = wrap(vnode);
+    vnode = h(wrapped);
+    wrappedHtml = wrapped.html;
+  }
 
   const preload = new Set();
   const onSuspenseResolve = (res) => {
     if (res && res.preload) {
       res.preload.forEach((p) => preload.add(p));
+    }
+
+    if (userOnSuspenseResolve) {
+      userOnSuspenseResolve(res);
     }
   };
 
@@ -102,6 +116,7 @@ export async function render(path, options) {
           ${renderPreload(preloads)}
         </head>
         <body>${appHtml || ""}
+        ${(wrappedHtml && wrappedHtml()) || ""}
         ${scripts.map((script) => `<script src="${script}"></script>`)}
         </body>
       </html>
