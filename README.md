@@ -1,5 +1,9 @@
 # PWRC - Preact Webpack Render Container
 
+Deployed Examples:
+Static Site: https://jacob-ebey.js.org/pwrc/
+SSR'd Site: https://pwrc-test.vercel.app/
+
 A webpack plugin and preact lazy loading solution that takes care of all that nasty code-splitting in a manageable way.
 
 On a client build, this will generate a json file with the info required for preloading chunks.
