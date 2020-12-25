@@ -2,6 +2,8 @@ import path from "path";
 
 import { prerender } from "@pwrc/prerender";
 
+import wrap from "./wrap";
+
 const paths = ["/", "/about", "404.html"];
 
 console.log("🚀 Rendering paths", paths);
@@ -14,6 +16,7 @@ assetPrefix = assetPrefix.endsWith("/")
 const query = `?ts=${Date.now()}`;
 
 prerender({
+  wrap,
   paths,
   outdir: path.resolve(process.cwd(), "public"),
   styles: [assetPrefix + "/static/main.css" + query],

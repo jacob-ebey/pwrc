@@ -15,10 +15,10 @@ import { render } from "./render";
  * @param {PrerenderOptions} options
  */
 export async function prerender(options) {
-  const { paths, outdir, scripts, styles } = options;
+  const { paths, outdir, scripts, styles, wrap } = options;
 
   for (const route of paths) {
-    const html = await render(route, { scripts, styles });
+    const html = await render(route, { scripts, styles, wrap });
 
     let filepath = route.startsWith("/") ? route.slice(1) : route;
     let filename = path.resolve(outdir, filepath);
