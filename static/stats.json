@@ -1,5 +1,5 @@
 {
-  "hash": "661e8022629ea229d596",
+  "hash": "ea5a84bc048b705cfcbd",
   "version": "5.11.0",
   "time": null,
   "publicPath": "/pwrc/static/",
@@ -69,18 +69,18 @@
         },
         {
           "type": "asset",
-          "name": "647.4c882d4274211e208f8c.js",
-          "size": 10690,
+          "name": "647.62e52cc3fdf74c78b283.js",
+          "size": 10694,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "immutable": true,
-            "contenthash": "4c882d4274211e208f8c",
+            "contenthash": "62e52cc3fdf74c78b283",
             "javascriptModule": false,
             "minimized": true,
             "related": {
-              "sourceMap": "647.4c882d4274211e208f8c.js.map"
+              "sourceMap": "647.62e52cc3fdf74c78b283.js.map"
             }
           },
           "chunkNames": [],
@@ -91,8 +91,8 @@
           "related": [
             {
               "type": "sourceMap",
-              "name": "647.4c882d4274211e208f8c.js.map",
-              "size": 28426,
+              "name": "647.62e52cc3fdf74c78b283.js.map",
+              "size": 28438,
               "emitted": false,
               "comparedForEmit": false,
               "cached": true,
@@ -268,7 +268,7 @@
           "isOverSizeLimit": false
         }
       ],
-      "size": 38204
+      "size": 38208
     },
     {
       "type": "assets by path",
@@ -403,7 +403,7 @@
         "main.css.map",
         "main.js.map"
       ],
-      "hash": "b17f2b46b836de7547c8",
+      "hash": "3f73119af5dffceba42b",
       "childrenByOrder": {},
       "id": 179,
       "siblings": [],
@@ -5120,9 +5120,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 20268,
+      "size": 20277,
       "sizes": {
-        "javascript": 19806,
+        "javascript": 19815,
         "css/mini-extract": 462
       },
       "names": [],
@@ -5132,13 +5132,13 @@
       ],
       "files": [
         "647.8244809f62c1cad50664.css",
-        "647.4c882d4274211e208f8c.js"
+        "647.62e52cc3fdf74c78b283.js"
       ],
       "auxiliaryFiles": [
-        "647.4c882d4274211e208f8c.js.map",
+        "647.62e52cc3fdf74c78b283.js.map",
         "647.8244809f62c1cad50664.css.map"
       ],
-      "hash": "d524ada8d264bf750bf5",
+      "hash": "de3a2ca6c1cf7e62bd1c",
       "childrenByOrder": {},
       "id": 647,
       "siblings": [],
@@ -5503,9 +5503,9 @@
             {
               "type": "module",
               "moduleType": "javascript/esm",
-              "size": 3461,
+              "size": 3470,
               "sizes": {
-                "javascript": 3461
+                "javascript": 3470
               },
               "built": true,
               "codeGenerated": true,
@@ -6089,9 +6089,9 @@
                 {
                   "type": "module",
                   "moduleType": "javascript/auto",
-                  "size": 1345,
+                  "size": 1354,
                   "sizes": {
-                    "javascript": 1345
+                    "javascript": 1354
                   },
                   "built": true,
                   "codeGenerated": false,
@@ -6137,7 +6137,7 @@
                     "Statement (VariableDeclaration) with side effects in source code at 7:0-68"
                   ],
                   "depth": 2,
-                  "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nimport {useFetch} from \"../../use-fetch\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example home page\"\n  });\n  const [todoId, setTodoId] = useState(1);\n  const [todo, reloadTodos] = useFetch(\"todos\", `https://jsonplaceholder.typicode.com/todos/${todoId}`);\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Use Fetch Data\"), /* @__PURE__ */ h(\"p\", null, \"TODO ID: \", todoId), /* @__PURE__ */ h(\"p\", null, /* @__PURE__ */ h(Button, {\n    onClick: reloadTodos\n  }, \"Reload\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId + 1)\n  }, \"+\")), /* @__PURE__ */ h(\"pre\", null, /* @__PURE__ */ h(\"code\", null, JSON.stringify(todo, null, 2))), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
+                  "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nimport {useFetch} from \"../../use-fetch\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example home page\"\n  });\n  const [todoId, setTodoId] = useState(1);\n  const [todo, reloadTodos] = useFetch(`todo-${todoId}`, `https://jsonplaceholder.typicode.com/todos/${todoId}`);\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Use Fetch Data\"), /* @__PURE__ */ h(\"p\", null, \"TODO ID: \", todoId), /* @__PURE__ */ h(\"p\", null, /* @__PURE__ */ h(Button, {\n    onClick: reloadTodos\n  }, \"Reload\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId + 1)\n  }, \"+\")), /* @__PURE__ */ h(\"pre\", null, /* @__PURE__ */ h(\"code\", null, JSON.stringify(todo, null, 2))), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
                 }
               ]
             },
@@ -6235,9 +6235,9 @@
               "depth": 5
             }
           ],
-          "size": 3923,
+          "size": 3932,
           "sizes": {
-            "javascript": 3461,
+            "javascript": 3470,
             "css/mini-extract": 462
           }
         }
@@ -9891,9 +9891,9 @@
                     {
                       "type": "module",
                       "moduleType": "javascript/esm",
-                      "size": 3461,
+                      "size": 3470,
                       "sizes": {
-                        "javascript": 3461
+                        "javascript": 3470
                       },
                       "built": true,
                       "codeGenerated": true,
@@ -10471,9 +10471,9 @@
                         {
                           "type": "module",
                           "moduleType": "javascript/auto",
-                          "size": 1345,
+                          "size": 1354,
                           "sizes": {
-                            "javascript": 1345
+                            "javascript": 1354
                           },
                           "built": true,
                           "codeGenerated": false,
@@ -10518,7 +10518,7 @@
                             "Statement (VariableDeclaration) with side effects in source code at 7:0-68"
                           ],
                           "depth": 2,
-                          "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nimport {useFetch} from \"../../use-fetch\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example home page\"\n  });\n  const [todoId, setTodoId] = useState(1);\n  const [todo, reloadTodos] = useFetch(\"todos\", `https://jsonplaceholder.typicode.com/todos/${todoId}`);\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Use Fetch Data\"), /* @__PURE__ */ h(\"p\", null, \"TODO ID: \", todoId), /* @__PURE__ */ h(\"p\", null, /* @__PURE__ */ h(Button, {\n    onClick: reloadTodos\n  }, \"Reload\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId + 1)\n  }, \"+\")), /* @__PURE__ */ h(\"pre\", null, /* @__PURE__ */ h(\"code\", null, JSON.stringify(todo, null, 2))), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
+                          "source": "import {h, Fragment} from \"preact\";\nimport {useState} from \"preact/hooks\";\nimport {useMeta, useTitle} from \"hoofd/preact\";\nimport {lazy} from \"@pwrc/preact\";\nimport Button from \"../../components/button\";\nimport {useFetch} from \"../../use-fetch\";\nconst CodeSplit = lazy(() => import(\"../../components/code-split\"));\nconst ClientOnlyCodeSplit = lazy(() => import(\"../../components/code-split\"), {\n  ssr: false\n});\nexport default function Home() {\n  useTitle(\"Home\");\n  useMeta({\n    name: \"description\",\n    content: \"PWRC example home page\"\n  });\n  const [todoId, setTodoId] = useState(1);\n  const [todo, reloadTodos] = useFetch(`todo-${todoId}`, `https://jsonplaceholder.typicode.com/todos/${todoId}`);\n  return /* @__PURE__ */ h(Fragment, null, /* @__PURE__ */ h(\"h1\", null, \"Home Page :D\"), /* @__PURE__ */ h(\"p\", null, \"Use Fetch Data\"), /* @__PURE__ */ h(\"p\", null, \"TODO ID: \", todoId), /* @__PURE__ */ h(\"p\", null, /* @__PURE__ */ h(Button, {\n    onClick: reloadTodos\n  }, \"Reload\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId - 1)\n  }, \"-\"), /* @__PURE__ */ h(Button, {\n    onClick: () => setTodoId(todoId + 1)\n  }, \"+\")), /* @__PURE__ */ h(\"pre\", null, /* @__PURE__ */ h(\"code\", null, JSON.stringify(todo, null, 2))), /* @__PURE__ */ h(CodeSplit, null), /* @__PURE__ */ h(ClientOnlyCodeSplit, {\n    clientOnly: true\n  }));\n}\n"
                         }
                       ]
                     },
@@ -10693,9 +10693,9 @@
                       "source": "import {h} from \"preact\";\nimport {useTitle} from \"hoofd/preact\";\nexport default function NotFound() {\n  useTitle(\"Not Found\");\n  return /* @__PURE__ */ h(\"h1\", null, \"404: Not Found\");\n}\n"
                     }
                   ],
-                  "size": 3918,
+                  "size": 3927,
                   "sizes": {
-                    "javascript": 3918
+                    "javascript": 3927
                   }
                 },
                 {
@@ -11572,15 +11572,15 @@
                   "source": "import {h} from \"preact\";\nexport default function CodeSplit({clientOnly}) {\n  return /* @__PURE__ */ h(\"h2\", null, \"I'm a code-split\", clientOnly ? \" client-only\" : \"\", \" component!\");\n}\n"
                 }
               ],
-              "size": 10511,
+              "size": 10520,
               "sizes": {
-                "javascript": 10511
+                "javascript": 10520
               }
             }
           ],
-          "size": 54633,
+          "size": 54642,
           "sizes": {
-            "javascript": 54633
+            "javascript": 54642
           }
         },
         {
@@ -12146,9 +12146,9 @@
           }
         }
       ],
-      "size": 64672,
+      "size": 64681,
       "sizes": {
-        "javascript": 54633,
+        "javascript": 54642,
         "runtime": 8904,
         "css/mini-extract": 1135
       }
@@ -13428,8 +13428,8 @@
       "name": "mini-css-extract-plugin /home/runner/work/pwrc/pwrc/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/home/runner/work/pwrc/pwrc/example/src/components/button/styles.module.css",
       "hash": "9751bd04068a28e6d0a2",
       "version": "5.11.0",
-      "time": 152,
-      "builtAt": 1608864236809,
+      "time": 149,
+      "builtAt": 1608864456510,
       "publicPath": "/pwrc/static/",
       "outputPath": "/home/runner/work/pwrc/pwrc/example/public/static",
       "assetsByChunkName": {},
@@ -14342,8 +14342,8 @@
       "name": "mini-css-extract-plugin /home/runner/work/pwrc/pwrc/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!/home/runner/work/pwrc/pwrc/example/src/components/shell/styles.module.css",
       "hash": "3a907ceb8d6cf220c7ad",
       "version": "5.11.0",
-      "time": 153,
-      "builtAt": 1608864236801,
+      "time": 150,
+      "builtAt": 1608864456502,
       "publicPath": "/pwrc/static/",
       "outputPath": "/home/runner/work/pwrc/pwrc/example/public/static",
       "assetsByChunkName": {},
