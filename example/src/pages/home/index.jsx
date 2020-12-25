@@ -23,7 +23,7 @@ export default function Home() {
   const [todoId, setTodoId] = useState(1);
 
   const [todo, reloadTodos] = useFetch(
-    "todos",
+    `todo-${todoId}`,
     `https://jsonplaceholder.typicode.com/todos/${todoId}`
   );
 
