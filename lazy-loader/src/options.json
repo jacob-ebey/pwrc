@@ -1,5 +1,5 @@
 {
-  "title": "@pwrc/loader",
+  "title": "@pwrc/lazy-loader",
   "type": "object",
   "description": "Options for PWRC.",
   "additionalProperties": false,

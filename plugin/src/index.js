@@ -1,4 +1,4 @@
-import PWRCLoaderPlugin from "@pwrc/loader/dist/cjs/plugin";
+import PWRCLoaderPlugin from "@pwrc/lazy-loader/dist/cjs/plugin";
 import { StatsWriterPlugin } from "webpack-stats-plugin";
 
 const PLUGIN_NAME = "PWRCPlugin";
@@ -75,7 +75,7 @@ class PWRCPlugin {
               normalModule.type.startsWith("javascript/")
             ) {
               normalModule.loaders.unshift({
-                loader: require.resolve("@pwrc/loader"),
+                loader: require.resolve("@pwrc/lazy-loader"),
               });
             }
           });

@@ -26,7 +26,7 @@ const external = [
   "path",
   "webpack",
   "webpack-stats-plugin",
-  "@pwrc/loader/dist/cjs/plugin",
+  "@pwrc/lazy-loader/dist/cjs/plugin",
 ];
 
 export default async function () {

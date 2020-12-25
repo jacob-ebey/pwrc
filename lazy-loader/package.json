@@ -1,5 +1,5 @@
 {
-  "name": "@pwrc/loader",
+  "name": "@pwrc/lazy-loader",
   "version": "1.0.0",
   "main": "dist/cjs/index.js",
   "license": "MIT",

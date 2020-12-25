@@ -11,19 +11,19 @@ assetPrefix = assetPrefix.endsWith("/")
 
 const query = `?ts=${Date.now()}`;
 
-const app = express({
-  styles: [assetPrefix + "/static/main.css" + query],
-  scripts: [assetPrefix + "/static/main.js" + query],
-});
+const app = express();
+
+app.use("/", express.static(path.resolve(process.cwd(), "public")));
 
 app.use(
-  "/static",
-  express.static(path.resolve(process.cwd(), "public/static"))
+  "/*",
+  pwrcExpress({
+    styles: [assetPrefix + "/static/main.css" + query],
+    scripts: [assetPrefix + "/static/main.js" + query],
+  })
 );
-
-app.use("/*", pwrcExpress());
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
-  console.log(`🚀 App started on port ${port}`);
+  console.log(`🚀 App started on port http://localhost:${port}`);
 });

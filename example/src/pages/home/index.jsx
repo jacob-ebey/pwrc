@@ -33,7 +33,7 @@ export default function Home() {
     <>
       <h1>Home Page :D</h1>
 
-      <p>Hello static, {hello}</p>
+      <p>Hello Static, {hello}</p>
 
       <p>Count: {count}</p>
       <Button onClick={() => setCount(count - 1)}>{"-"}</Button>

@@ -15,7 +15,7 @@ function createConfig(filename) {
       {
         file: `./dist/cjs/${filename}`,
         format: "cjs",
-        name: "pwrc-express",
+        name: "pwrc-lazy-loader",
         exports: "auto",
       },
     ],
